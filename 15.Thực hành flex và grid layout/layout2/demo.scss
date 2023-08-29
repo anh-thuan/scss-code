@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  $border: 1px solid rgb(0, 255, 106);
+  $content-page-height: 500px;
+  
+  .header {
+    height: 200px;
+    border: $border;
+  }
+  
+  .textarea {
+    height: 200px;
+    border: $border;
+  }
+  
+  #box {
+    height: $content-page-height;
+    border: $border;
+    display: flex;
+    justify-content: space-between;
+  
+    .box1,
+    .box2,
+    .box3 {
+      width: 30%;
+      height: $content-page-height;
+      border: $border;
+    }
+  }
+  
+  #footer {
+    height: 200px; /* Set the desired height here */
+    border: $border;
+  }
+  

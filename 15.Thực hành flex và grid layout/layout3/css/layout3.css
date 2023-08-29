@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px dotted blue;
+}
+
+* div {
+  background: white;
+}
+
+.header, .textarea, #box, #footer {
+  height: 50px;
+}
+
+.content {
+  display: flex;
+  height: 600px;
+}
+.content .side-bar {
+  width: 30%;
+}
+.content .main-content {
+  width: 70%;
+}
+.content .main-content .header {
+  height: 200px;
+}
+.content .main-content .textarea {
+  height: 400px;
+}/*# sourceMappingURL=layout3.css.map */

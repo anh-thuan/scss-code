@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+$border:1px solid rgb(0, 255, 106);
+$content-page-height:500px;
+
+.header{
+    height:200px;
+    border:$border;
+}
+
+#content{
+    height:500px;
+    border:$border;
+    display:flex;
+
+    .sidebar{
+        width:40%;
+        height:$content-page-height;
+        border-right:1px solid blue;
+    }
+
+    .body-area{
+        width:60%;
+        height:$content-page-height;
+    }
+}
+
+

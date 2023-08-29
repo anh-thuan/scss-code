@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px dotted blue;
+}
+
+* div {
+  background: white;
+}
+
+.header, .textarea, #box, .item, #footer {
+  height: 50px;
+}
+
+.content {
+  display: grid;
+  height: 60vh;
+  grid-template: repeat(4, 1fr)/repeat(4, 1fr);
+  grid-gap: 20px;
+}
+
+.content2 {
+  height: 30vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}/*# sourceMappingURL=layout4.css.map */

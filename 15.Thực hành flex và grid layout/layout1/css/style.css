@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 200px;
+  border: 1px solid rgb(0, 255, 106);
+}
+
+#content {
+  height: 500px;
+  border: 1px solid rgb(0, 255, 106);
+  display: flex;
+}
+#content .sidebar {
+  width: 40%;
+  height: 500px;
+}
+#content .body-area {
+  width: 60%;
+  height: 500px;
+}/*# sourceMappingURL=style.css.map */
